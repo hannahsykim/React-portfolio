@@ -7,11 +7,18 @@
   padding-right: 14px;
 }
 
-.navbar a {
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
   color: #212529;
-  font-size: 1 rem;
   text-decoration: none;
   margin: 10px;
   line-height: 3;
+  
+}
+
+li {
+  padding: 8px;
 }
 
