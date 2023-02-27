@@ -13,9 +13,9 @@ function App() {
       <Header />
       <Navbar />
       <AboutMe  />
-      {/* <Portfolio />
+      <Portfolio />
       <Contact />
-      <Resume /> */}
+      <Resume />
     </div>
   );
 }
