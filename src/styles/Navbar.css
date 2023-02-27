@@ -11,11 +11,13 @@ ul {
   display: flex;
   list-style: none;
   justify-content: flex-end;
-  color: #212529;
   text-decoration: none;
   margin: 10px;
   line-height: 3;
-  
+}
+
+ul a {
+  color: #373737;
 }
 
 li {
