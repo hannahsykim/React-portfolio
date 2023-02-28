@@ -18,7 +18,7 @@ function Portfolio() {
             <div className="w-full px-4 md:w-1/2 xl:w-1/3">
                 <div className="mb-10 overflow-hidden rounded-lg bg-white">
                 <img
-                    src={movieIMG}
+                    src={ movieIMG }
                     alt="image"
                     className="w-full"
                 />
