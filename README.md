@@ -16,6 +16,7 @@ This is my portfolio website that uses React.js, Tailwind CSS, Frostbite, and Re
 
 Deployed application: https://portfolio-hannahkim.netlify.app/
 ## Visual <a id="visual"></a>
+<img width="1558" alt="Screenshot 2023-02-27 at 11 05 54 PM" src="https://user-images.githubusercontent.com/113808775/221779275-29660fb7-c09d-48fa-b6b7-4dbc1b424ad3.png">
 
 ## Questions <a id="questions"></a>
 
