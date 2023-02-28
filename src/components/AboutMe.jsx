@@ -22,13 +22,10 @@ function AboutMe() {
             <h2 className="text-2xl text-center font-bold mb-4">Hi, my name is Hannah Kim.</h2>
             
               <p className="text-body-color mb-9 mx-28 text-base leading-relaxed">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-                quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+                I'm a web developer specializing in HTML, CSS, Javascript, MySQL, and React. 
+                As a former UX and motion graphic designer, I have a strong understanding of user experience and how to capture user's attention. 
+                In my past experience, I have collaborated with a team of developers as well as strategists to create a interactive engagement unit for various brands' ad campaigns.
+                I've also managed a team of designers and have worked in the tech industry for over 6 years. Now, as a passionate student, I'm currently looking for new opportunities to grow in the tech industry as a developer. 
               </p>
         
 
