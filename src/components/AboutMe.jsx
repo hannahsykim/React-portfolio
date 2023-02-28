@@ -12,7 +12,7 @@ function AboutMe() {
               </h1>
           </div>
         
-        <div className="flex flex-wrap -space-x-3 overflow-hidden content-center justify-evenly mb-4">
+        <div className="flex flex-wrap -space-x-3 overflow-hidden content-center justify-evenly mb-10">
           <img
             className="inline-block h-40 w-40 rounded-full ring-2 ring-white"
             src= {imgUrl}
@@ -22,7 +22,7 @@ function AboutMe() {
         
             <h2 className="text-2xl text-center font-bold mb-4">Hi, my name is Hannah Kim.</h2>
             
-              <p className="text-body-color mb-9 mx-28 text-base leading-relaxed">
+              <p className="text-body-color mb-9 mx-28 text-base leading-relaxed text-center">
                 I'm a web developer specializing in HTML, CSS, Javascript, MySQL, and React. 
                 As a former UX and motion graphic designer, I have a strong understanding of user experience and how to capture user's attention. 
                 In my past experience, I have collaborated with a team of developers as well as strategists to create a interactive engagement unit for various brands' ad campaigns.
