@@ -1,5 +1,5 @@
 import React from 'react';
-import teamprofileIMG from '../assets/Team-Profile.png';
+import teamProfileIMG from '../assets/Team-profile.png';
 import weatherIMG from '../assets/Weather-Dashboard.png';
 import schedulerIMG from '../assets/Workday-Scheduler.png';
 import movieIMG from '../assets/Movie-Review-Site.png';
@@ -105,7 +105,7 @@ function Portfolio() {
             <div className="w-full px-4 md:w-1/2 xl:w-1/3">
                 <div className="mb-10 overflow-hidden rounded-lg bg-white">
                 <img
-                    src={teamprofileIMG}
+                    src={teamProfileIMG}
                     alt="image"
                     className="w-full"
                 />
