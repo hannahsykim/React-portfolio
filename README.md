@@ -1,5 +1,5 @@
 
-# Social Media API
+# React Portfolio
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)
 
