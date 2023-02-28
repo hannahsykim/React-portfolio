@@ -1,4 +1,5 @@
 import React from 'react';
+import imgUrl from '../assets/myphoto.jpg'
 
 function AboutMe() {
   return (
@@ -13,8 +14,8 @@ function AboutMe() {
         
         <div className="flex flex-wrap -space-x-3 overflow-hidden content-center justify-evenly mb-4">
           <img
-            // className="inline-block h-100 w-100 rounded-full ring-2 ring-white"
-            src="./IMG_1252.jpg" 
+            className="inline-block h-40 w-40 rounded-full ring-2 ring-white"
+            src= {imgUrl}
             alt="myphoto"
           />
           </div>

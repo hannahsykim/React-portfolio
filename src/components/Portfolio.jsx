@@ -1,4 +1,8 @@
 import React from 'react';
+import teamprofileIMG from '../assets/Team-Profile.png';
+import weatherIMG from '../assets/Weather-Dashboard.png';
+import schedulerIMG from '../assets/Workday-Scheduler.png';
+import movieIMG from '../assets/Movie-Review-Site.png';
 
 function Portfolio() {
     return (
@@ -14,7 +18,7 @@ function Portfolio() {
             <div className="w-full px-4 md:w-1/2 xl:w-1/3">
                 <div className="mb-10 overflow-hidden rounded-lg bg-white">
                 <img
-                    src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-01.jpg"
+                    src={movieIMG}
                     alt="image"
                     className="w-full"
                 />
@@ -43,7 +47,7 @@ function Portfolio() {
             <div className="w-full px-4 md:w-1/2 xl:w-1/3">
                 <div className="mb-10 overflow-hidden rounded-lg bg-white">
                 <img
-                    src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-02.jpg"
+                    src={schedulerIMG}
                     alt="image"
                     className="w-full"
                 />
@@ -72,7 +76,7 @@ function Portfolio() {
             <div className="w-full px-4 md:w-1/2 xl:w-1/3">
                 <div className="mb-10 overflow-hidden rounded-lg bg-white">
                 <img
-                    src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-03.jpg"
+                    src={weatherIMG}
                     alt="image"
                     className="w-full"
                 />
@@ -101,7 +105,7 @@ function Portfolio() {
             <div className="w-full px-4 md:w-1/2 xl:w-1/3">
                 <div className="mb-10 overflow-hidden rounded-lg bg-white">
                 <img
-                    src="https://cdn.tailgrids.com/2.0/image/application/images/cards/card-01/image-03.jpg"
+                    src={teamprofileIMG}
                     alt="image"
                     className="w-full"
                 />
