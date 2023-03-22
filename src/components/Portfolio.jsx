@@ -3,6 +3,7 @@ import techBlogIMG from '../assets/image.png';
 import weatherIMG from '../assets/Weather-Dashboard.png';
 import schedulerIMG from '../assets/Workday-Scheduler.png';
 import movieIMG from '../assets/Movie-Review-Site.png';
+import anaxiIMG from '../assets/Anaxi.png';
 
 function Portfolio() {
     return (
@@ -13,9 +14,7 @@ function Portfolio() {
                 Portfolio
             </h1>
         </div>
-            <div className="-mx-4 flex flex-wrap container mx-auto">
-
-            <div className="w-50 px-4 md:w-1/2 xl:w-1/2">
+            <div className="mx-4 grid grid-cols-3 gap-4 mx-auto p-4">
                 <div className="mb-10 overflow-hidden shadow rounded-lg bg-white">
                 <img
                     src={ movieIMG }
@@ -53,9 +52,9 @@ function Portfolio() {
                     View Live
                     </a>
                 </div>
-                </div>
+                
             </div>
-            <div className="w-full px-4 md:w-1/2 xl:w-1/2">
+            
                 <div className="mb-10 overflow-hidden shadow rounded-lg bg-white">
                 <img
                     src={schedulerIMG}
@@ -92,9 +91,9 @@ function Portfolio() {
                     View Live
                     </a>
                 </div>
-                </div>
+                
             </div>
-            <div className="w-full px-4 md:w-1/2 xl:w-1/2">
+            
                 <div className="mb-10 overflow-hidden shadow rounded-lg bg-white">
                 <img
                     src={weatherIMG}
@@ -130,9 +129,9 @@ function Portfolio() {
                     View Live
                     </a>
                 </div>
-                </div>
+                
             </div>
-            <div className="w-full px-4 md:w-1/2 xl:w-1/2">
+            
                 <div className="mb-10 overflow-hidden shadow rounded-lg bg-white">
                 <img
                     src={techBlogIMG}
@@ -169,7 +168,45 @@ function Portfolio() {
                     View Live
                     </a>
                 </div>
+            
+            </div>
+            
+                <div className="mb-10 overflow-hidden shadow rounded-lg bg-white">
+                <img
+                    src={anaxiIMG}
+                    alt="image"
+                    className="w-full h-[200px] object-cover"
+                />
+                <div className="p-8 text-center sm:p-9 md:p-7 xl:p-9 object-cover">
+                    <h3>
+                    <a
+                        href="/"
+                        className="text-dark hover:text-primary mb-4 block text-xl font-semibold sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]"
+                    >
+                        Anaxi Mapper
+                    </a>
+                    </h3>
+                    <p className="text-body-color mb-7 text-base leading-relaxed">
+                    Anaxi Mapper, or Anaxi for short, is a web application utilizing Google's map and WebGL map API's to provide an interactive, 3d user experience.
+
+                    </p>
+                    <p className="text-body-color mb-7 text-base leading-relaxed">
+                    Made with: MERN, Restful API, Google Maps API, WebGL, Jotai, Tailwind, Axios, JWT, Typescript
+                    </p>
+                    <a
+                    href="https://github.com/hannahsykim/Anaxi-Mapper"
+                    className="text-body-color hover:border-primary hover:bg-primary inline-block rounded border border-[#E5E7EB] py-2 px-7 m-1 text-base font-medium transition hover:text-slate-400"
+                    >
+                    View Code
+                    </a>
+                    <a
+                    href="https://www.anaxi.app/"
+                    className="text-body-color hover:border-primary hover:bg-primary inline-block rounded border border-[#E5E7EB] py-2 px-7 m-1 text-base font-medium transition hover:text-slate-400"
+                    >
+                    View Live
+                    </a>
                 </div>
+                
             </div>
             </div>
         
